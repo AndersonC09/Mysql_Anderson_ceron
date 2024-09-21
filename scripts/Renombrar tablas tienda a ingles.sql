@@ -1,0 +1,11 @@
+RENAME TABLE tienda.cliente TO tienda.customer;
+RENAME TABLE tienda.departamento TO tienda.department;
+RENAME TABLE tienda.empleados TO tienda.employee;
+RENAME TABLE tienda.factura TO tienda.invoice;
+RENAME TABLE tienda.factura_producto TO tienda.invoice_product;
+RENAME TABLE tienda.municipio TO tienda.municipality;
+RENAME TABLE tienda.pais TO tienda.country;
+RENAME TABLE tienda.producto TO tienda.product;
+RENAME TABLE tienda.tipo_documento TO tienda.document_type;
+RENAME TABLE tienda.tipo_producto TO tienda.product_type;
+RENAME TABLE tienda.vendedor TO tienda.seller;
