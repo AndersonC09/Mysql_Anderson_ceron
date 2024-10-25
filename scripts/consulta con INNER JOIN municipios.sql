@@ -4,5 +4,5 @@ SELECT
     country.name AS country_name
 FROM 
     municipality
-INNER JOIN department ON municipality.id_department = department.id_department
-INNER JOIN country ON department.id_country = country.id_country;
+INNER JOIN department ON municipality.id = department.id
+INNER JOIN country ON department.id_country = country.id;
